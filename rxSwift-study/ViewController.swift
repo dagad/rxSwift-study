@@ -7,16 +7,37 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class ViewController: UIViewController {
+    
+    private let disposeBag = DisposeBag()
 
+    @IBOutlet var button: UIButton!
+    @IBOutlet var textLabel: UILabel!
+    @IBOutlet var textField: UITextField!
+    
+    var flag = Variable(false)
+    var list = PublishSubject<[String]>()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        button.rx.tap
+            .bind(onNext:reload)
+            .disposed(by: disposeBag)
+        
+        flag.asObservable()
+            .map{!$0}
+            .subscribe { event in
+                event.element }.disposed(by: disposeBag)
+        
+        
     
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    func reload() {
         
     }
 
