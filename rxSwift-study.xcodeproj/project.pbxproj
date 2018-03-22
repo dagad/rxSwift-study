@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0A77BD20636A1400BC5901 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A77BC20636A1400BC5901 /* ViewModel.swift */; };
 		2B75167D2062486C009026AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B75167C2062486C009026AD /* AppDelegate.swift */; };
 		2B75167F2062486C009026AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B75167E2062486C009026AD /* ViewController.swift */; };
 		2B7516822062486C009026AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7516802062486C009026AD /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B0A77BC20636A1400BC5901 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		2B7516792062486C009026AD /* rxSwift-study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rxSwift-study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B75167C2062486C009026AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B75167E2062486C009026AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				2B75167C2062486C009026AD /* AppDelegate.swift */,
+				2B0A77BC20636A1400BC5901 /* ViewModel.swift */,
 				2B75167E2062486C009026AD /* ViewController.swift */,
 				2B7516802062486C009026AD /* Main.storyboard */,
 				2B7516832062486C009026AD /* Assets.xcassets */,
@@ -461,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B75167F2062486C009026AD /* ViewController.swift in Sources */,
+				2B0A77BD20636A1400BC5901 /* ViewModel.swift in Sources */,
 				2B75167D2062486C009026AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,7 +568,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -615,7 +619,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
