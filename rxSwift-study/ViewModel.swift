@@ -11,25 +11,7 @@ import RxCocoa
 
 struct ViewModel {
     
-    let textSubject: PublishSubject<String>
-    
-    func setup() {
-        
-    }
-    
-//    func bind(withInput input: Input) -> Output {
-//        let saveText = input.buttonTrigger.bind {
-//            return Output(text:Observable)
-//        }
-//
-//        textSubject.subscribe { event in
-//            let output = Output(text: event.element)
-//
-//        }
-//
-//
-//    }
-    
+    var isHidden: BehaviorSubject<Bool>
     
 }
 
